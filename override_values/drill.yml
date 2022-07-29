@@ -1,0 +1,4 @@
+drill:
+  count: 7
+  cpu: 11000m
+  memory: 62Gi

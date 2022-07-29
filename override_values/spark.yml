@@ -1,0 +1,19 @@
+master:
+  resources:
+    limits:
+      cpu: 12
+      memory: 62Gi
+    requests:
+      cpu: 11
+      memory: 62Gi
+worker:
+  replicaCount: 6
+  coreLimit: 12
+  podManagementPolicy: Parallel
+  resources:
+    limits:
+      cpu: 12
+      memory: 62Gi
+    requests:
+      cpu: 11
+      memory: 62Gi
